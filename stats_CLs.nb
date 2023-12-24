@@ -1,0 +1,176 @@
+BgPath = NotebookDirectory[] <> "Cross_Sections/sigma_bg.dat";
+SgnPath = NotebookDirectory[] <> "Cross_Sections/sigma_signal.dat";
+ObsPath = NotebookDirectory[] <> "Cross_Sections/sigma_observed.dat";
+mHiggsPath = NotebookDirectory[] <> "mHiggs.txt";
+
+nrbMassPoints = 55;
+
+{lumin = 10 10^3 (*from femto^-1 to pico^-1*), rescale = 1(* 1/3*), 
+  rescaleSgn =(*1.01*)1};
+mHList = Import[mHiggsPath, "Table"] // Flatten;
+
+NEventsBg0 = Import[BgPath, "Table"] // DeleteCases[#, {}] &;
+NEventsBg0 = rescale lumin NEventsBg0 // Ceiling;
+
+NEventsSgn0 = Import[SgnPath, "Table"] // DeleteCases[#, {}] &;
+NEventsSgn0 = rescaleSgn rescale lumin NEventsSgn0 // Ceiling;
+
+NEventsObs0 = Import[ObsPath, "Table"] // DeleteCases[#, {}] &;
+NEventsObs0 = rescaleSgn rescale lumin NEventsObs0 // Ceiling;
+b = Median /@ NEventsBg0;
+s = Median /@ NEventsSgn0;
+s = s - b // N;
+b = b // N;
+
+bgHist = {mHList, b/5} // N // Ceiling // Transpose;
+sgnHist = {mHList, (b + s)/5} // N // Ceiling // Transpose;
+obsHist = {mHList, NEventsObs0/5} // N // Ceiling // Transpose;
+
+EventsGeneratorBg := Interpolation[bgHist](*//N*);
+EventsGeneratorSgn := Interpolation[sgnHist](*//N*);
+EventsGeneratorObs := Interpolation[obsHist](*//N*);
+
+mHList = Table[
+   95 + (200 - 95)/nrbMassPoints (i - 1), {i, 1, nrbMassPoints}];
+b = (EventsGeneratorBg /@ mHList) // N // Ceiling;
+s = (EventsGeneratorSgn /@ mHList) // N // Ceiling;
+NEventsObs0 = (EventsGeneratorObs /@ mHList) // N // Ceiling // Flatten;
+
+nbrModels0 = mHList // Length;
+
+s = s - b;
+b = b;
+
+LLRPDF[LLR_, \[Lambda]_ (* \[Lambda] to the model whose CL is being \
+evaluated *) , b_, s_, \[Mu]_ (* b,s,\[Mu] refer to the LLR *)] := 
+  Block[{NEvents, rep, exparg, res},
+   rep = {NEvents -> (((2 \[Mu] s + LLR)/(2 Log[1 + \[Mu] s/b])))};
+   exparg = (-\[Lambda] + NEvents Log[\[Lambda]] /. rep) // N;
+   res = Exp[exparg]/(NEvents! /. rep);
+    Return[res]];
+    
+CLs[NObserved_, b_, s_, \[Mu]_] := 
+ Block[{LLRObserved, CLsignal, CLbackground, CLs0},
+  LLRObserved = -2 \[Mu]  s + 
+    2 NObserved Log[
+      1 + \[Mu] s/b](*/.{\[Mu]\[Mu]\[Mu]\[Rule]\[Mu]}*);
+  CLsignal = 
+   NIntegrate[
+     LLRPDF[LLR, 
+      b + \[Mu] s (* \[Lambda] to the model whose CL is being \
+evaluated *) , b, s, \[Mu] (* b,
+      s,\[Mu] refer to the LLR *)], {LLR, -Infinity, LLRObserved}]/
+    NIntegrate[
+     LLRPDF[LLR, 
+      b + \[Mu] s (* \[Lambda] to the model whose CL is being \
+evaluated *) , b, s, \[Mu] (* b,
+      s,\[Mu] refer to the LLR *)], {LLR, -Infinity, Infinity}];
+  CLbackground = 
+   NIntegrate[
+    LLRPDF[LLR, 
+     b (* \[Lambda] to the model whose CL is being evaluated *) , b, 
+     s, \[Mu] (* b,s,\[Mu] refer to the LLR *)], {LLR, -Infinity, 
+     LLRObserved}]/
+   NIntegrate[
+    LLRPDF[LLR, 
+     b (* \[Lambda] to the model whose CL is being evaluated *) , b, 
+     s, \[Mu] (* b,s,\[Mu] refer to the LLR *)], {LLR, -Infinity, 
+     Infinity}];
+  CLs0 = CLsignal/CLbackground;
+  Return[CLs0]];    
+
+\[Mu]Result = Table[0, {ii, 1, nrbMassPoints}];
+increment = 0.05;
+
+Do[
+ \[Mu]max = 0.017;
+ CLs0 = 1;
+ While[CLs0 >= 0.05,
+  
+  CLs0 = CLs[b[[ii]], b[[ii]], s[[ii]], \[Mu]max];
+  
+  \[Mu]max = \[Mu]max + increment;
+  ];
+ \[Mu]Result[[ii]] = \[Mu]max - increment;,
+ {ii, 1, nrbMassPoints}]
+expectedCLs = \[Mu]Result;
+
+\[Mu]Result = Table[0, {ii, 1, nrbMassPoints}];
+increment = 0.05;
+
+Do[
+  \[Mu]max = 0.017;
+  CLs0 = 1;
+  While[CLs0 >= 0.05,
+   
+   CLs0 = CLs[b[[ii]] + Sqrt[b[[ii]]], b[[ii]], s[[ii]], \[Mu]max];
+   
+   \[Mu]max = \[Mu]max + increment;
+   ];
+  \[Mu]Result[[ii]] = \[Mu]max - increment;,
+  {ii, 1, nrbMassPoints}];
+expectedCLsp\[Sigma] = \[Mu]Result;
+
+\[Mu]Result = Table[0, {ii, 1, nrbMassPoints}];
+increment = 0.05;
+
+Do[
+  \[Mu]max = 0.017;
+  CLs0 = 1;
+  While[CLs0 >= 0.05,
+   
+   CLs0 = CLs[b[[ii]] + 2 Sqrt[b[[ii]]], b[[ii]], s[[ii]], \[Mu]max];
+   
+   \[Mu]max = \[Mu]max + increment;
+   ];
+  \[Mu]Result[[ii]] = \[Mu]max - increment;,
+  {ii, 1, nrbMassPoints}];
+expectedCLsp2\[Sigma] = \[Mu]Result;
+
+\[Mu]Result = Table[0, {ii, 1, nrbMassPoints}];
+increment = 0.05;
+
+Do[
+  \[Mu]max = 0.017;
+  CLs0 = 1;
+  While[CLs0 >= 0.05,
+   
+   CLs0 = CLs[b[[ii]] - \[Sqrt]b[[ii]], b[[ii]], s[[ii]], \[Mu]max];
+   
+   \[Mu]max = \[Mu]max + increment;
+   ];
+  \[Mu]Result[[ii]] = \[Mu]max - increment;,
+  {ii, 1, nrbMassPoints}];
+expectedCLsm\[Sigma] = \[Mu]Result;
+
+\[Mu]Result = Table[0, {ii, 1, nrbMassPoints}];
+increment = 0.05;
+
+Do[
+  \[Mu]max = 0.017;
+  CLs0 = 1;
+  While[CLs0 >= 0.05,
+   
+   CLs0 = CLs[b[[ii]] - 2 Sqrt[b[[ii]]], b[[ii]], s[[ii]], \[Mu]max];
+   
+   \[Mu]max = \[Mu]max + increment;
+   ];
+  \[Mu]Result[[ii]] = \[Mu]max - increment;,
+  {ii, 1, nrbMassPoints}];
+  
+  \[Mu]Result = Table[0, {ii, 1, nrbMassPoints}];
+increment = 0.05;
+
+Do[
+  \[Mu]max = 0.017;
+  CLs0 = 1;
+  While[CLs0 >= 0.05,
+   
+   CLs0 = CLs[NEventsObs0[[ii]], b[[ii]], s[[ii]], \[Mu]max];
+   
+   \[Mu]max = \[Mu]max + increment;
+   ];
+  \[Mu]Result[[ii]] = \[Mu]max - increment;,
+  {ii, 1, nrbMassPoints}];
+observed = \[Mu]Result;
+expectedCLsm2\[Sigma] = \[Mu]Result;

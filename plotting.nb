@@ -1,0 +1,234 @@
+nrbMassPoints = 55;
+mHList = Table[
+   95 + (200 - 95)/nrbMassPoints (i - 1), {i, 1, nrbMassPoints}];
+expectedCLs = {4.216999999999993`, 4.116999999999994`, 
+   3.816999999999995`, 3.6169999999999956`, 3.3669999999999964`, 
+   3.166999999999997`, 3.0169999999999977`, 2.8169999999999984`, 
+   2.666999999999999`, 2.5169999999999995`, 2.417`, 
+   2.2170000000000005`, 2.1670000000000007`, 2.0170000000000012`, 
+   1.867000000000001`, 1.767000000000001`, 1.667000000000001`, 
+   1.5670000000000008`, 1.4670000000000007`, 1.3670000000000007`, 
+   1.2670000000000006`, 1.2170000000000005`, 1.1170000000000004`, 
+   1.0670000000000004`, 1.0170000000000003`, 0.9170000000000004`, 
+   0.8670000000000003`, 0.8170000000000003`, 0.7670000000000002`, 
+   0.7170000000000002`, 0.6670000000000001`, 0.6170000000000001`, 
+   0.5670000000000001`, 0.517`, 0.517`, 0.467`, 0.417`, 0.417`, 
+   0.367`, 0.317`, 0.317`, 0.267`, 0.267`, 0.21700000000000003`, 
+   0.21700000000000003`, 0.21700000000000003`, 0.16700000000000004`, 
+   0.16700000000000004`, 0.16700000000000004`, 0.117`, 0.117`, 0.117`,
+    0.117`, 0.117`, 0.067`};
+observed = {4.266999999999993`, 4.166999999999994`, 
+   3.9169999999999945`, 3.6169999999999956`, 3.4169999999999963`, 
+   3.166999999999997`, 2.966999999999998`, 2.7669999999999986`, 
+   2.616999999999999`, 2.4669999999999996`, 2.417`, 2.317`, 2.417`, 
+   2.4669999999999996`, 2.5169999999999995`, 2.5669999999999993`, 
+   2.4669999999999996`, 2.2170000000000005`, 1.9170000000000011`, 
+   1.667000000000001`, 1.4170000000000007`, 1.2170000000000005`, 
+   1.1170000000000004`, 1.0170000000000003`, 0.9670000000000003`, 
+   0.9170000000000004`, 0.8670000000000003`, 0.8170000000000003`, 
+   0.7670000000000002`, 0.7170000000000002`, 0.6670000000000001`, 
+   0.6170000000000001`, 0.5670000000000001`, 0.517`, 0.467`, 0.467`, 
+   0.417`, 0.417`, 0.367`, 0.317`, 0.317`, 0.267`, 0.267`, 
+   0.21700000000000003`, 0.21700000000000003`, 0.21700000000000003`, 
+   0.16700000000000004`, 0.16700000000000004`, 0.16700000000000004`, 
+   0.117`, 0.117`, 0.117`, 0.117`, 0.117`, 0.067`};
+expectedCLsm\[Sigma] = {3.0669999999999975`, 2.966999999999998`, 
+   2.7669999999999986`, 2.616999999999999`, 2.417`, 2.317`, 
+   2.1670000000000007`, 2.0170000000000012`, 1.9170000000000011`, 
+   1.817000000000001`, 1.717000000000001`, 1.6170000000000009`, 
+   1.5670000000000008`, 1.4670000000000007`, 1.3670000000000007`, 
+   1.2670000000000006`, 1.2170000000000005`, 1.1170000000000004`, 
+   1.0670000000000004`, 0.9670000000000003`, 0.9170000000000004`, 
+   0.8670000000000003`, 0.8170000000000003`, 0.7670000000000002`, 
+   0.7170000000000002`, 0.6670000000000001`, 0.6170000000000001`, 
+   0.5670000000000001`, 0.5670000000000001`, 0.517`, 0.467`, 0.467`, 
+   0.417`, 0.367`, 0.367`, 0.317`, 0.317`, 0.267`, 0.267`, 0.267`, 
+   0.21700000000000003`, 0.21700000000000003`, 0.21700000000000003`, 
+   0.16700000000000004`, 0.16700000000000004`, 0.16700000000000004`, 
+   0.117`, 0.117`, 0.117`, 0.117`, 0.117`, 0.067`, 0.067`, 0.067`, 
+   0.067`};
+expectedCLsp\[Sigma] = {5.866999999999988`, 5.666999999999988`, 
+   5.3169999999999895`, 5.016999999999991`, 4.716999999999992`, 
+   4.416999999999993`, 4.166999999999994`, 3.9169999999999945`, 
+   3.716999999999995`, 3.516999999999996`, 3.3169999999999966`, 
+   3.0669999999999975`, 2.966999999999998`, 2.7669999999999986`, 
+   2.5669999999999993`, 2.4669999999999996`, 2.317`, 
+   2.1670000000000007`, 2.0170000000000012`, 1.867000000000001`, 
+   1.767000000000001`, 1.667000000000001`, 1.5670000000000008`, 
+   1.4670000000000007`, 1.3670000000000007`, 1.2670000000000006`, 
+   1.2170000000000005`, 1.1170000000000004`, 1.0670000000000004`, 
+   0.9670000000000003`, 0.9170000000000004`, 0.8670000000000003`, 
+   0.7670000000000002`, 0.7170000000000002`, 0.6670000000000001`, 
+   0.6170000000000001`, 0.5670000000000001`, 0.517`, 0.517`, 0.467`, 
+   0.417`, 0.367`, 0.367`, 0.317`, 0.317`, 0.267`, 0.267`, 
+   0.21700000000000003`, 0.21700000000000003`, 0.16700000000000004`, 
+   0.16700000000000004`, 0.16700000000000004`, 0.117`, 0.117`, 0.117`};
+expectedCLsm2\[Sigma] = {2.2670000000000003`, 2.2170000000000005`, 
+   2.067000000000001`, 1.9170000000000011`, 1.817000000000001`, 
+   1.717000000000001`, 1.6170000000000009`, 1.5170000000000008`, 
+   1.4170000000000007`, 1.3670000000000007`, 1.2670000000000006`, 
+   1.2170000000000005`, 1.1670000000000005`, 1.0670000000000004`, 
+   1.0170000000000003`, 0.9670000000000003`, 0.9170000000000004`, 
+   0.8170000000000003`, 0.7670000000000002`, 0.7170000000000002`, 
+   0.6670000000000001`, 0.6670000000000001`, 0.6170000000000001`, 
+   0.5670000000000001`, 0.5670000000000001`, 0.517`, 0.467`, 0.467`, 
+   0.417`, 0.417`, 0.367`, 0.317`, 0.317`, 0.317`, 0.267`, 0.267`, 
+   0.21700000000000003`, 0.21700000000000003`, 0.21700000000000003`, 
+   0.16700000000000004`, 0.16700000000000004`, 0.16700000000000004`, 
+   0.16700000000000004`, 0.117`, 0.117`, 0.117`, 0.117`, 0.117`, 
+   0.117`, 0.067`, 0.067`, 0.067`, 0.067`, 0.067`, 0.067`};
+expectedCLsp2\[Sigma] = {7.8669999999999805`, 7.616999999999981`, 
+   7.116999999999983`, 6.7169999999999845`, 6.266999999999986`, 
+   5.916999999999987`, 5.566999999999989`, 5.26699999999999`, 
+   4.966999999999991`, 4.716999999999992`, 4.4669999999999925`, 
+   4.116999999999994`, 4.016999999999994`, 3.716999999999995`, 
+   3.466999999999996`, 3.266999999999997`, 3.0669999999999975`, 
+   2.866999999999998`, 2.666999999999999`, 2.5169999999999995`, 
+   2.317`, 2.2170000000000005`, 2.067000000000001`, 
+   1.9170000000000011`, 1.817000000000001`, 1.717000000000001`, 
+   1.6170000000000009`, 1.5170000000000008`, 1.4170000000000007`, 
+   1.3170000000000006`, 1.2170000000000005`, 1.1170000000000004`, 
+   1.0670000000000004`, 0.9670000000000003`, 0.9170000000000004`, 
+   0.8170000000000003`, 0.7670000000000002`, 0.7170000000000002`, 
+   0.6670000000000001`, 0.6170000000000001`, 0.5670000000000001`, 
+   0.517`, 0.467`, 0.417`, 0.367`, 0.367`, 0.317`, 0.317`, 0.267`, 
+   0.21700000000000003`, 0.21700000000000003`, 0.21700000000000003`, 
+   0.16700000000000004`, 0.16700000000000004`, 0.16700000000000004`};
+   
+   << MaTeX`
+texStyle = {FontFamily -> "Latin Modern Roman", 
+   FontSize -> matexFontSize};
+SetOptions[MaTeX, 
+  "Preamble" -> {"\\usepackage{amsmath,amssymb}", 
+    "\\usepackage{lmodern,exscale}", "\\usepackage{xcolor}"}];
+{mag = 1.5, tickmag = 1.2, titlemag = 1.5, matexLegendFontSize = 1.1};
+
+CreateTics[start_, end_, increment_, regularLength_, startAnchor_, 
+   endAnchor_, incrementAnchor_, anchorLength_, isEmpty_ : 0] := 
+  Block[{CreateTics0, CreateTics0Empty},
+   
+   CreateTics0[start0_, end0_, increment0_, regularLength0_, 
+     startAnchor0_, endAnchor0_, incrementAnchor0_, anchorLength0_] :=
+     Block[{gXTicksAnchors, gXTicksMiddle},
+     gXTicksAnchors = {};
+     For[tick = startAnchor0, tick <= endAnchor0, 
+      tick = tick + incrementAnchor0, 
+      gXTicksAnchors  = 
+       Append[gXTicksAnchors, {tick, 
+         MaTeX[tick, Magnification -> tickmag], {0.01, 0}}] ];
+     
+     gXTicksMiddle = {};
+     For[tick = start0, tick <= end0, tick = tick + increment0,
+      If[! MemberQ[gXTicksAnchors[[;; , 1]], tick],  
+       gXTicksMiddle  = 
+        Append[gXTicksMiddle, {tick, "", {0.005, 0}}] ] ];
+     
+     Return[gXTicksAnchors \[Union] gXTicksMiddle]
+     ];
+   
+   CreateTics0Empty[start0_, end0_, increment0_, regularLength0_, 
+     startAnchor0_, endAnchor0_, incrementAnchor0_, anchorLength0_] :=
+     Block[{gXTicksAnchors, gXTicksMiddle},
+     gXTicksAnchors = {};
+     For[tick = startAnchor0, tick <= endAnchor0, 
+      tick = tick + incrementAnchor0, 
+      gXTicksAnchors  = 
+       Append[gXTicksAnchors, {tick, "", {0.01, 0}}] ];
+     
+     gXTicksMiddle = {};
+     For[tick = start0, tick <= end0, tick = tick + increment0,
+      If[! MemberQ[gXTicksAnchors[[;; , 1]], tick],  
+       gXTicksMiddle  = 
+        Append[gXTicksMiddle, {tick, "", {0.005, 0}}] ] ];
+     
+     Return[gXTicksAnchors \[Union] gXTicksMiddle]
+     ];
+   
+   If[isEmpty == 1, 
+    CreateTics0Empty[start, end, increment, regularLength, 
+     startAnchor, endAnchor, incrementAnchor, anchorLength], 
+    CreateTics0[start, end, increment, regularLength, startAnchor, 
+     endAnchor, incrementAnchor, anchorLength]]
+   ];
+
+xTicks = CreateTics[95, 200, 5, 0.005, 100, 200, 20, 0.01];
+xTicksEmpty = CreateTics[95, 200, 5, 0.005, 100, 200, 20, 0.01, 1];
+yTicks = {{0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 2, 3, 4, 5,
+      6, 7, 8, 9, 
+     10}, (MaTeX[#, Magnification -> tickmag] &) /@ {0.1, "", "", "", 
+      0.5, "", "", "", "", 1, "", "", "", 5, "", "", "", "", 10}} // 
+   Transpose;
+yTicksEmpty = {{0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 2, 3, 
+     4, 5, 6, 7, 8, 9, 
+     10}, (MaTeX[#, Magnification -> tickmag] &) /@ {"", "", "", "", 
+      "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""}} // 
+   Transpose;
+ticksFinal = {{yTicks, yTicksEmpty}, {xTicks, xTicksEmpty}};
+
+
+expectedCurve = 
+  ListLinePlot[{mHList, expectedCLs} // Transpose, 
+   PlotRange -> {0.1, 10}, ScalingFunctions -> "Log", 
+   PlotStyle -> Directive[Black, Dashed, Thin], 
+   Epilog -> {Directive[Red, Dashed], Line[{{95, 1}, {200, 1}}]}, 
+   Frame -> True, FrameTicks -> ticksFinal];
+observedCurve = 
+  ListLinePlot[{mHList, observed} // Transpose, 
+   PlotRange -> {0.1, 10}, ScalingFunctions -> "Log", 
+   PlotStyle -> Directive[Black, Thin], 
+   Epilog -> {Directive[Red, Dashed], Line[{{95, 1}, {200, 1}}]}, 
+   Frame -> True, FrameTicks -> ticksFinal];
+horizontal = 
+  ListLinePlot[Table[{95 + 2 ii, 1}, {ii, 0, 52}], 
+   PlotRange -> {0.1, 10}, ScalingFunctions -> "Log", 
+   PlotStyle -> Directive[Red, Dashed], Frame -> True, 
+   FrameTicks -> ticksFinal];
+yellowBand = 
+  ListLinePlot[{{mHList, expectedCLsm\[Sigma]} // 
+     Transpose, {mHList, expectedCLsp\[Sigma]} // Transpose}, 
+   Filling -> {1 -> {2}}, FillingStyle -> Yellow, 
+   PlotStyle -> {None, None}, PlotRange -> {0.1, 10}, 
+   ScalingFunctions -> "Log", Frame -> True, FrameTicks -> ticksFinal];
+greenBand = 
+  ListLinePlot[{{mHList, expectedCLsm2\[Sigma]} // 
+     Transpose, {mHList, expectedCLsp2\[Sigma]} // Transpose}, 
+   Filling -> {1 -> {2}}, FillingStyle -> Green, 
+   PlotStyle -> {None, None}, PlotRange -> {0.1, 10}, 
+   ScalingFunctions -> "Log", Frame -> True, FrameTicks -> ticksFinal];
+Show[{greenBand, yellowBand, horizontal,(*limit,*)expectedCurve, 
+  observedCurve}]
+  
+  legendObserved = 
+ LineLegend[{Directive[Black]}, {MaTeX["{\\rm Observed}", 
+    Magnification -> matexLegendFontSize]}, LegendMarkerSize -> 26]
+legendExpected = 
+ LineLegend[{Directive[Black, Dashed]}, {MaTeX["{\\rm Expected}", 
+    Magnification -> matexLegendFontSize]}, LegendMarkerSize -> 26]
+legend1\[Sigma] = 
+ SwatchLegend[{Yellow}, {MaTeX["{\\pm 1\\sigma}", 
+    Magnification -> matexLegendFontSize]}, 
+  LegendMarkerSize -> {26, 18}]
+legend2\[Sigma] = 
+ SwatchLegend[{Green}, {MaTeX["{\\pm 2\\sigma}", 
+    Magnification -> matexLegendFontSize]}, 
+  LegendMarkerSize -> {26, 18}]
+  
+  plot = Show[{greenBand, yellowBand, horizontal,(*limit,*)
+   expectedCurve, observedCurve}, 
+  FrameLabel -> {{MaTeX["\\sigma/\\sigma_{\\rm SM}", 
+      Magnification -> mag], 
+     None}, {MaTeX["m_H \\, [{\\rm GeV}]", Magnification -> mag], 
+     MaTeX["95\\% \\hspace{1.35mm} \\mathit{CL}_s \\hspace{1.35mm} \
+{\\rm limit \\hspace{1.35mm} on} \\hspace{1.35mm} \
+\\sigma/\\sigma_{\\rm SM}", Magnification -> mag]}}, 
+  AspectRatio -> 1.1 1/GoldenRatio, ImageSize -> 400]
+  
+  plot2 = Legended[
+  Legended[Legended[
+    Legended[plot, Placed[legendObserved, {0.82, 0.9}]], 
+    Placed[legendExpected, {0.82, 0.82}]], 
+   Placed[legend1\[Sigma], {0.78, 0.72}]], 
+  Placed[legend2\[Sigma], {0.78, 0.6}]]
+  
+  Export[NotebookDirectory[] <> 
+  "Plots/Higgs_Money_Plot.png", plot2, "png"]

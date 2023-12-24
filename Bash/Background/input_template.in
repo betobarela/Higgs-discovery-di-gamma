@@ -1,0 +1,5110 @@
+import model HEFT
+
+define pt = p b t b~ t~
+
+generate pt pt > a a / h
+
+output ~/Simulations/Higgs_bg/MH_@scanMass@
+
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+launch ~/Simulations/Higgs_bg/MH_@scanMass@
+shower=off
+detector=off
+analysis=off
+madspin=off
+reweight=off
+0
+set nevents 3000
+set ebeam1 6500
+set ebeam2 6500
+set MH @scanMass@
+set WH @scanWH@
+set mmaa @lowCut@
+set mmaamax @highCut@
+
+0
+
+quit
