@@ -6,4 +6,4 @@ This project is an exercise on advanced statistics that originates from the real
 
   2. _Statistics_: The $\\mathit{CL_s}$ procedure is performed through the `stats_CLs` Mathematica code in a functional and hands-on manner. A Poisson distribution is assumed for the number of events in each bin, with the average cross section obtained from the pseudo-experiments as median. We take advantage of the Neyman-Pearson Lemma and use log-likelihood ratio as test statistic. We then find, for each $m_H$, the exclusion threshold, i.e., what is the strength parameter $\mu$ (interpreted as $\\sigma/\\sigma_{\\mathrm{SM}}$) for which $\\mathit{CL_s}=0.05$, where
 
-$$\mathit{CL_s}(m) = \frac{P(LLR<m)}{P(LLR_{\mathrm{SM}}<m)}$$
+$$CL_s(m) = \frac{P(LLR<m)}{P(LLR_{SM}<m)}$$
