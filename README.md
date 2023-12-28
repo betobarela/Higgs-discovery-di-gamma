@@ -9,3 +9,7 @@ This project is an exercise on advanced statistics that originates from the real
 3. _Plotting_: We plot the result, together with the one and two standard deviations bands -- all done in the `plotting.nb` Mathematica notebook. The result, finally, appears below
 
 ![Higgs Money Plot](Plots/Higgs_Money_Plot.png)
+
+<p align="center">
+  <img src="Plots/Higgs_Money_Plot.png" width="64%" />
+</p>
